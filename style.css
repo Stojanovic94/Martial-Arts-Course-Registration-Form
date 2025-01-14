@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;  /* Postavljamo font za tekst u telu stranice */
+    margin: 0;  /* Uklanjamo marginu sa svih strana tela */
+    padding: 0;  /* Uklanjamo unutrašnju marginu tela */
+}
+
+header, footer {
+    background-color: #ff6d01;  /* Pozadinska boja za header i footer */
+    color: #fff;  /* Tekst u headeru i footeru je bele boje */
+    text-align: center;  /* Tekst u headeru i footeru je poravnat na centar */
+    padding-bottom: 0.5em;  /* Dodajemo unutrašnju marginu (padding) od 1em */
+}
+
+
+nav ul {
+    list-style: none;  /* Uklanjamo oznake sa liste */
+    padding: 0;  /* Uklanjamo padding sa liste */
+}
+
+nav ul li {
+    display: inline;  /* Stavlja listu u jedan red (inline prikaz) */
+    margin: 0 10px;  /* Razmak od 10px između stavki menija */
+}
+
+nav ul li a {
+    color: #fff;  /* Boja linkova u meniju je bela */
+    text-decoration: none;  /* Uklanjamo podvlačenje linkova */
+}
+
+nav ul li a:hover {
+    color: #ff9900;  /* Boja linka postaje narandžasta kad pređemo mišem preko njega */
+}
+
+main {
+    padding: 2em;  /* Dodajemo unutrašnji razmak od 2em za glavni sadržaj */
+    max-width: 600px;  /* Maksimalna širina glavnog sadržaja je 600px */
+    margin: auto;  /* Automatski centriramo sadržaj sa leve i desne strane */
+}
+
+form label {
+    display: block;  /* Labela zauzima celokupnu širinu (block) */
+    margin-top: 10px;  /* Razmak od 10px između labela i prethodnog elementa */
+}
+
+form input, form select {
+    width: 100%;  /* Input polja i select meniji zauzimaju celu širinu svog roditeljskog elementa */
+    padding: 0.5em;  /* Dodajemo unutrašnju marginu od 0.5em */
+    margin-top: 5px;  /* Razmak između inputa/select-a i labela */
+}
+
+button {
+    padding: 0.5em 1em;  /* Unutrašnji razmak unutar dugmadi (0.5em vertikalno, 1em horizontalno) */
+    margin-top: 10px;  /* Razmak od 10px između dugmadi i prethodnog elementa */
+}
+
+button:hover {
+    background-color: #ff9900;  /* Pozadinska boja dugmadi postaje narandžasta kada se pređe mišem */
+}
+
+/* Slideshow */
+.slideshow {
+    width: 100%;  /* Širina slideshow-a je 100% širine roditeljskog elementa */
+    height: 50vh;  /* Visina slideshow-a je postavljena na 50% visine preglednika */
+    display: flex;  /* Koristimo flexbox za raspored slika u slideshow-u */
+    overflow: hidden;  /* Skriva delove slika koji izlaze izvan okvira */
+    position: relative;  /* Pozicija je relativna zbog korišćenja pozicioniranja za animaciju */
+}
+
+.slideshow img {
+    width: 100%;  /* Svaka slika zauzima 100% širine svog roditeljskog elementa */
+    height: auto;  /* Visina slika se automatski prilagođava proporcijama slike */
+    flex-shrink: 0;  /* Sprečava smanjivanje slika kada se koristi flexbox */
+    animation: slide 15s infinite;  /* Pokreće animaciju koja traje 15 sekundi i ponavlja se beskonačno */
+}
+
+@keyframes slide {
+    0%, 100% { transform: translateX(0%); }  /* Početak i kraj animacije – slike ostaju na mestu */
+    20% { transform: translateX(-100%); }  /* U 20% vremena animacije, pomeramo slike za 100% ulevo */
+    40% { transform: translateX(-200%); }  /* U 40% vremena animacije, pomeramo slike za 200% ulevo */
+}
+
+/* Email error message */
+#error-message {
+    color: red;  /* Boja teksta greške je crvena */
+    font-size: 0.9em;  /* Veličina fonta greške je 0.9em */
+    display: none;  /* Početno je poruka greške skrivena */
+    margin-top: 5px;  /* Razmak od 5px između greške i prethodnog elementa */
+}
+
+/* Checkbox i Radio dugmadi sa njihovim labelama u istom redu */
+fieldset {
+    margin: 10px 0;  /* Razmak od 10px sa gornje i donje strane fieldset-a */
+}
+
+/* Postavljanje checkbox-ova i radio dugmadi u isti red sa labelama */
+fieldset label {
+    display: inline-flex;  /* Koristi inline-flex za horizontalno poređivanje dugmadi i labela */
+    align-items: center;  /* Poravnava dugme i labelu vertikalno */
+    margin-right: 20px;  /* Razmak od 20px između checkbox-a/radio dugmeta i sledećeg elementa */
+}
+
+fieldset input {
+    margin-right: 5px;  /* Razmak od 5px između dugmadi i njihovih labela */
+}

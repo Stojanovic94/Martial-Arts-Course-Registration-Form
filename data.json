@@ -1,0 +1,19 @@
+{
+"vestine": [
+    { "name": "Karate", "price": 5000 },
+    { "name": "Džudo", "price": 5500 },
+    { "name": "Aikido", "price": 6000 },
+    { "name": "Taekwondo", "price": 5200 },
+    { "name": "Kung Fu", "price": 5700 },
+    { "name": "Brazilian Jiu-Jitsu", "price": 6500 },
+    { "name": "Kickboxing", "price": 4800 },
+    { "name": "Box", "price": 5000 },
+    { "name": "Kendo", "price": 6300 },
+    { "name": "Capoeira", "price": 5500 },
+    { "name": "Muay Thai", "price": 6200 },
+    { "name": "Sambo", "price": 5900 },
+    { "name": "Wing Chun", "price": 5400 },
+    { "name": "Savate", "price": 6000 },
+    { "name": "Ninjutsu", "price": 6500 }
+]
+}

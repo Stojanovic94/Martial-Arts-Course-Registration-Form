@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava na Kurs Borilačkih Veština</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pics/uk8anEc.png" type="image/x-icon">
+    <link rel="icon" href="https://imgur.com/a/siLhSPY" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="slideshow">
+            <img src="pics/9JFyCr4.jpeg" class="slide" alt="Slide 1">
+            <img src="pics/bI1lzur.jpeg" class="slide" alt="Slide 2">
+            <img src="pics/oNPpw6M.jpeg" class="slide" alt="Slide 3">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Početna</a></li>
+                <li><a href="#">O nama</a></li>
+                <li><a href="#">Turniri</a></li>
+                <li><a href="#">Galerija</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="prijavaForm">
+            <h2>Prijava na Kurs</h2>
+
+            <div class="form-group">
+                <label for="ime">Ime i Prezime:</label>
+                <input type="text" id="ime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefon">Kontakt Telefon:</label>
+                <input type="number" id="telefon" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <span id="error-message"></span> <!-- Poruka greške -->
+            </div>            
+            
+
+            <div class="form-group">
+                <label for="brojPolaznika">Broj Polaznika:</label>
+                <input type="number" id="brojPolaznika" min="1" max="5" required>
+            </div>
+
+            <div class="form-group">
+                <label for="datum">Datum Početka:</label>
+                <input type="date" id="datum" required>
+            </div>
+
+            <div class="form-group">
+                <label for="vestina">Vrsta Borilačke Veštine:</label>
+                <select id="vestina" required></select>
+            </div>
+
+            <fieldset>
+                <legend>Dodatni Sadržaji</legend>
+                <label><input type="checkbox" name="dodatni" value="oprema"> Zaštitna Oprema</label>
+                <label><input type="checkbox" name="dodatni" value="trener"> Privatni Trener</label>
+                <label><input type="checkbox" name="dodatni" value="medicina"> Medicinska Podrška</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Trajanje Kursa</legend>
+                <label><input type="radio" name="trajanje" value="1" required> 1 Mesec</label>
+                <label><input type="radio" name="trajanje" value="3"> 3 Meseca</label>
+                <label><input type="radio" name="trajanje" value="6"> 6 Meseci</label>
+            </fieldset>            
+
+            <p id="cena">Cena Kursa: </p>
+
+            <div class="button-group">
+                <button type="button" onclick="izracunajCenu()">Izračunaj Cenu</button>
+                <!-- <button type="submit">Prijavi Se</button> -->
+                <button type="reset">Resetuj</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 <b>Rade Krstić</b> ITS 09/23 & <b>Nikola Stojanović</b>  ITS 11/23 </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
