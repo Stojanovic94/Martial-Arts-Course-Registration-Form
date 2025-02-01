@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Ova funkcija se pokreće nakon što je ceo sadržaj stranice (HTML) učitan
 
-    // Učitavanje podataka iz JSON fajla koristeći Ajax (fetch)
-    const vestinaDropdown = document.getElementById("vestina"); // Dohvatiti <select> element za vestinu
+    const vestinaDropdown = document.getElementById("vestina");
 
     // Učitavanje JSON fajla sa podacima
     fetch('data.json')  // Zamenite sa stvarnim putem do JSON fajla
