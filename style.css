@@ -5,16 +5,16 @@ body {
 }
 
 header, footer {
-    background-color: #ff6d01;  /* Pozadinska boja za header i footer */
-    color: #fff;  /* Tekst u headeru i footeru je bele boje */
-    text-align: center;  /* Tekst u headeru i footeru je poravnat na centar */
-    padding-bottom: 0.5em;  /* Dodajemo unutrašnju marginu (padding) od 1em */
+    background-color: #ff6d01;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0.5em; 
 }
 
 
 nav ul {
-    list-style: none;  /* Uklanjamo oznake sa liste */
-    padding: 0;  /* Uklanjamo padding sa liste */
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
