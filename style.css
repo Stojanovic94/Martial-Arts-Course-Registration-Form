@@ -19,7 +19,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;  /* Razmak od 10px između stavki menija */
+    margin: 0 10px;
 }
 
 nav ul li a {
