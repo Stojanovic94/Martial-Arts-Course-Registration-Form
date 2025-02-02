@@ -24,7 +24,7 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    text-decoration: none;  /* Uklanjamo podvlačenje linkova */
+    text-decoration: none;
 }
 
 nav ul li a:hover {
