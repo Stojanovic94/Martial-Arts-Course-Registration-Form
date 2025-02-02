@@ -18,7 +18,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;  /* Stavlja listu u jedan red (inline prikaz) */
+    display: inline;
     margin: 0 10px;  /* Razmak od 10px između stavki menija */
 }
 
