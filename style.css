@@ -23,7 +23,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;  /* Boja linkova u meniju je bela */
+    color: #fff;
     text-decoration: none;  /* Uklanjamo podvlačenje linkova */
 }
 
