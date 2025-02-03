@@ -39,8 +39,7 @@ main {
 
 form label {
     display: block;
-    margin-top: 10px;  /* Razmak od 10px između labela i prethodnog elementa */
-}
+    margin-top: 10px;
 
 form input, form select {
     width: 100%;  /* Input polja i select meniji zauzimaju celu širinu svog roditeljskog elementa */
