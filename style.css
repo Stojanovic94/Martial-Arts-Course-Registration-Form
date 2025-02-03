@@ -38,7 +38,7 @@ main {
 }
 
 form label {
-    display: block;  /* Labela zauzima celokupnu širinu (block) */
+    display: block;
     margin-top: 10px;  /* Razmak od 10px između labela i prethodnog elementa */
 }
 
