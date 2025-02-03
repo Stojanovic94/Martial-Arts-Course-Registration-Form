@@ -32,9 +32,9 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 2em;  /* Dodajemo unutrašnji razmak od 2em za glavni sadržaj */
-    max-width: 600px;  /* Maksimalna širina glavnog sadržaja je 600px */
-    margin: auto;  /* Automatski centriramo sadržaj sa leve i desne strane */
+    padding: 2em;
+    max-width: 600px;
+    margin: auto;
 }
 
 form label {
