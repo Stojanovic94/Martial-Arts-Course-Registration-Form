@@ -40,11 +40,12 @@ main {
 form label {
     display: block;
     margin-top: 10px;
+} 
 
 form input, form select {
     width: 100%;
     padding: 0.5em;
-    margin-top: 5px;  /* Razmak između inputa/select-a i labela */
+    margin-top: 5px; 
 }
 
 button {
