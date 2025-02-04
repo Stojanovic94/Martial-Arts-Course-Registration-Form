@@ -43,7 +43,7 @@ form label {
 
 form input, form select {
     width: 100%;
-    padding: 0.5em;  /* Dodajemo unutrašnju marginu od 0.5em */
+    padding: 0.5em;
     margin-top: 5px;  /* Razmak između inputa/select-a i labela */
 }
 
