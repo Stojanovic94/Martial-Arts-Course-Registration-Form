@@ -42,7 +42,7 @@ form label {
     margin-top: 10px;
 
 form input, form select {
-    width: 100%;  /* Input polja i select meniji zauzimaju celu širinu svog roditeljskog elementa */
+    width: 100%;
     padding: 0.5em;  /* Dodajemo unutrašnju marginu od 0.5em */
     margin-top: 5px;  /* Razmak između inputa/select-a i labela */
 }
