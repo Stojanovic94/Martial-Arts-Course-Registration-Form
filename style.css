@@ -54,7 +54,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff9900;  /* Pozadinska boja dugmadi postaje narandžasta kada se pređe mišem */
+    background-color: #ff9900;
 }
 
 /* Slideshow */
