@@ -50,7 +50,7 @@ form input, form select {
 
 button {
     padding: 0.5em 1em;
-    margin-top: 10px;  /* Razmak od 10px između dugmadi i prethodnog elementa */
+    margin-top: 10px;
 }
 
 button:hover {
