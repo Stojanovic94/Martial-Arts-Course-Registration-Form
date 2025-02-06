@@ -62,7 +62,7 @@ button:hover {
     height: 50vh;
     display: flex;
     overflow: hidden;
-    position: relative;  /* Pozicija je relativna zbog korišćenja pozicioniranja za animaciju */
+    position: relative;
 }
 
 .slideshow img {
