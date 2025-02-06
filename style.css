@@ -57,7 +57,6 @@ button:hover {
     background-color: #ff9900;
 }
 
-/* Slideshow */
 .slideshow {
     width: 100%;  /* Širina slideshow-a je 100% širine roditeljskog elementa */
     height: 50vh;  /* Visina slideshow-a je postavljena na 50% visine preglednika */
