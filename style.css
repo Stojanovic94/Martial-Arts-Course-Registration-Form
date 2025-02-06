@@ -60,7 +60,7 @@ button:hover {
 .slideshow {
     width: 100%;
     height: 50vh;
-    display: flex;  /* Koristimo flexbox za raspored slika u slideshow-u */
+    display: flex;
     overflow: hidden;  /* Skriva delove slika koji izlaze izvan okvira */
     position: relative;  /* Pozicija je relativna zbog korišćenja pozicioniranja za animaciju */
 }
