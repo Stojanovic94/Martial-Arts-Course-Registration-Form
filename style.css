@@ -68,7 +68,7 @@ button:hover {
 .slideshow img {
     width: 100%;
     height: auto;
-    flex-shrink: 0;  /* Sprečava smanjivanje slika kada se koristi flexbox */
+    flex-shrink: 0;
     animation: slide 15s infinite;  /* Pokreće animaciju koja traje 15 sekundi i ponavlja se beskonačno */
 }
 
