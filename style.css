@@ -85,7 +85,6 @@ button:hover {
     margin-top: 5px;  /* Razmak od 5px između greške i prethodnog elementa */
 }
 
-/* Checkbox i Radio dugmadi sa njihovim labelama u istom redu */
 fieldset {
     margin: 10px 0;  /* Razmak od 10px sa gornje i donje strane fieldset-a */
 }
