@@ -78,9 +78,8 @@ button:hover {
     40% { transform: translateX(-200%); }
 }
 
-/* Email error message */
 #error-message {
-    color: red;  /* Boja teksta greške je crvena */
+    color: red;
     font-size: 0.9em;  /* Veličina fonta greške je 0.9em */
     display: none;  /* Početno je poruka greške skrivena */
     margin-top: 5px;  /* Razmak od 5px između greške i prethodnog elementa */
