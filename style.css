@@ -74,7 +74,7 @@ button:hover {
 
 @keyframes slide {
     0%, 100% { transform: translateX(0%); }
-    20% { transform: translateX(-100%); }  /* U 20% vremena animacije, pomeramo slike za 100% ulevo */
+    20% { transform: translateX(-100%); }
     40% { transform: translateX(-200%); }  /* U 40% vremena animacije, pomeramo slike za 200% ulevo */
 }
 
