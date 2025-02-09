@@ -82,7 +82,7 @@ button:hover {
     color: red;
     font-size: 0.9em;
     display: none;
-    margin-top: 5px;  /* Razmak od 5px između greške i prethodnog elementa */
+    margin-top: 5px;
 }
 
 fieldset {
