@@ -81,7 +81,7 @@ button:hover {
 #error-message {
     color: red;
     font-size: 0.9em;
-    display: none;  /* Početno je poruka greške skrivena */
+    display: none;
     margin-top: 5px;  /* Razmak od 5px između greške i prethodnog elementa */
 }
 
