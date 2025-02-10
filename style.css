@@ -89,7 +89,6 @@ fieldset {
     margin: 10px 0;
 }
 
-/* Postavljanje checkbox-ova i radio dugmadi u isti red sa labelama */
 fieldset label {
     display: inline-flex;  /* Koristi inline-flex za horizontalno poređivanje dugmadi i labela */
     align-items: center;  /* Poravnava dugme i labelu vertikalno */
