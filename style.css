@@ -92,7 +92,7 @@ fieldset {
 fieldset label {
     display: inline-flex;
     align-items: center;
-    margin-right: 20px;  /* Razmak od 20px između checkbox-a/radio dugmeta i sledećeg elementa */
+    margin-right: 20px;
 }
 
 fieldset input {
