@@ -90,7 +90,7 @@ fieldset {
 }
 
 fieldset label {
-    display: inline-flex;  /* Koristi inline-flex za horizontalno poređivanje dugmadi i labela */
+    display: inline-flex;
     align-items: center;  /* Poravnava dugme i labelu vertikalno */
     margin-right: 20px;  /* Razmak od 20px između checkbox-a/radio dugmeta i sledećeg elementa */
 }
