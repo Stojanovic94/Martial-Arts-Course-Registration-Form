@@ -86,7 +86,7 @@ button:hover {
 }
 
 fieldset {
-    margin: 10px 0;  /* Razmak od 10px sa gornje i donje strane fieldset-a */
+    margin: 10px 0;
 }
 
 /* Postavljanje checkbox-ova i radio dugmadi u isti red sa labelama */
